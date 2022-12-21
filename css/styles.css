@@ -11,9 +11,6 @@
 
 /* body */
 body {
-  margin: 0;
-  max-width: 1440px;
-
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: var(--first-text-color);
@@ -25,6 +22,10 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.section {
+  padding-bottom: 120px;
 }
 
 h1,
@@ -63,7 +64,7 @@ ul {
 
 /* header */
 .page-header {
-  box-shadow: 0 0 3px var(--second-text-color);
+  border: 1px solid #e7e9fc;
 }
 
 .main-header,
@@ -141,7 +142,7 @@ ul {
 }
 
 /* hero */
-.hero {
+.hero.section {
   padding-top: 192px;
   padding-bottom: 192px;
 
@@ -187,9 +188,8 @@ ul {
 }
 
 /* advantages-section */
-.advantages-section {
+.advantages.section {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .advantages-list {
@@ -205,7 +205,7 @@ ul {
 }
 
 .advantages-title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 
   font-size: 20px;
   line-height: 1.2;
@@ -219,10 +219,6 @@ ul {
 }
 
 /* work-section */
-.work-section {
-  padding-bottom: 120px;
-}
-
 .section-title {
   margin-bottom: 72px;
   text-align: center;
@@ -247,9 +243,8 @@ ul {
 }
 
 /* team-section */
-.team-section {
+.team.section {
   padding-top: 120px;
-  padding-bottom: 120px;
 
   background-color: var(--light-bg-color);
 }
@@ -295,12 +290,12 @@ ul {
 }
 
 /* footer */
-.page-footer {
-  background-color: var(--dark-shadows-color);
-
+.footer {
   height: 310px;
   padding-top: 100px;
   padding-bottom: 100px;
+
+  background-color: var(--dark-shadows-color);
 }
 
 .footer-logo {
@@ -324,9 +319,8 @@ ul {
 }
 
 /* portfolio */
-.portfolio-section {
+.portfolio.section {
   padding-top: 96px;
-  padding-bottom: 120px;
 }
 
 .filter-list {
