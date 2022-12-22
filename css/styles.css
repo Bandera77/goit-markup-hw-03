@@ -25,6 +25,7 @@ body {
 }
 
 .section {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -188,8 +189,8 @@ ul {
 }
 
 /* advantages-section */
-.advantages.section {
-  padding-top: 120px;
+.advantages {
+  padding-bottom: 0;
 }
 
 .advantages-list {
@@ -243,9 +244,7 @@ ul {
 }
 
 /* team-section */
-.team.section {
-  padding-top: 120px;
-
+.team {
   background-color: var(--light-bg-color);
 }
 
@@ -291,7 +290,6 @@ ul {
 
 /* footer */
 .footer {
-  height: 310px;
   padding-top: 100px;
   padding-bottom: 100px;
 
